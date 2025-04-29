@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form &ndash; Sign Up &copy; 2025</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <center><table border="1" cellpadding="10" cellspacing="0">
+            <tr><th colspan="2">Registration Form &mdash;Fill Pannuga </th></tr>
+            <tr>
+                <td><label for="fullname">Full Name:&nbsp;</label></td>
+                <td><input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:&nbsp;</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:&nbsp;</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:&nbsp;</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:&nbsp;</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:&nbsp;</label></td>
+                <td><input type="number" id="age" name="age" placeholder="Enter your age" min="18" max="100" required></td>
+            </tr>
+            <tr>
+                <td><label for="experience">Experience (years):&nbsp;</label></td>
+                <td><input type="range" id="experience" name="experience" min="0" max="40" value="5"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="profile-pic">Profile Picture:&nbsp;</label></td>
+                <td><input type="file" id="profile-pic" name="profile-pic"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:&nbsp;</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male"> Male&nbsp;&nbsp;
+                    <input type="radio" id="female" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:&nbsp;</label></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="india">India</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="bio">Bio:&nbsp;</label></td>
+                <td><textarea id="bio" name="bio" rows="4" cols="40" placeholder="Tell us about yourself..."></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="terms">Terms &amp; Conditions:&nbsp;</label></td>
+                <td>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the <a href="#">&lt;terms and conditions&gt;</a>.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">&raquo; Submit</button>
+                </td>
+            </tr>
+        </table></center>
+    </form>
+</body>
+</html>
